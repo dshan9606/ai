@@ -1,5 +1,7 @@
+import os
 from smolagents import CodeAgent, HfApiModel
 from smolagents import tool, Tool
+
 
 from huggingface_hub import InferenceClient
 from huggingface_hub import list_models

@@ -1,6 +1,8 @@
+import os
 from smolagents import CodeAgent, HfApiModel
 from smolagents import tool
 from huggingface_hub import list_models
+
 
 from dotenv import load_dotenv
 

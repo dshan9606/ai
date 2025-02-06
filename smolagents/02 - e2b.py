@@ -1,4 +1,6 @@
+import os
 from smolagents import CodeAgent, VisitWebpageTool, HfApiModel
+
 
 from dotenv import load_dotenv
 
